@@ -107,7 +107,7 @@
   (net 18 "/AN1+")
   (net 19 "/AN1-")
 
-  (footprint "ml-symbols:3v3-LOGO" (layer "F.Cu")
+  (footprint "footprints:3v3-LOGO" (layer "F.Cu")
     (tedit 65CD9390) (tstamp 1a78722c-1325-43f6-baf1-4392c967d803)
     (at 97.286 49.74258)
     (descr "3.3V Graphical Logo")
@@ -132,7 +132,7 @@
     (fp_arc (start 0.3175 0.365) (mid 0 3.311241) (end -0.3175 0.365) (layer "F.SilkS") (width 0.2032) (tstamp 0bced67b-643f-4958-8906-c43721b43dd9))
   )
 
-  (footprint "ml-symbols:mikrobus-small" (layer "F.Cu")
+  (footprint "footprints:mikrobus-small" (layer "F.Cu")
     (tedit 642BE3A5) (tstamp 4b6b12d9-455f-48e6-a68d-b23c9408e091)
     (at 91.554 48.564)
     (property "Sheetfile" "ES100-MOD Clock.kicad_sch")
@@ -336,7 +336,7 @@
       (net 9 "GND") (pinfunction "GND") (pintype "power_in") (tstamp c11800a1-7754-4ac5-a9a8-c6989ec2e1ac))
   )
 
-  (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" (layer "F.Cu")
+  (footprint "footprints:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" (layer "F.Cu")
     (tedit 65CC7D05) (tstamp 62c1c60b-b7c4-4bff-9721-56ad86825500)
     (at 110.824 52.039 180)
     (descr "Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity")
@@ -398,7 +398,7 @@
     )
   )
 
-  (footprint "TerminalBlock_TE-Connectivity:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" (layer "F.Cu")
+  (footprint "footprints:TerminalBlock_TE_282834-2_1x02_P2.54mm_Horizontal" (layer "F.Cu")
     (tedit 65CC7D10) (tstamp 8451b0a5-2579-4d03-bc19-09273c9d3011)
     (at 104.054 52.039 180)
     (descr "Terminal Block TE 282834-2, 2 pins, pitch 2.54mm, size 5.54x6.5mm^2, drill diamater 1.1mm, pad diameter 2.1mm, see http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Customer+Drawing%7F282834%7FC1%7Fpdf%7FEnglish%7FENG_CD_282834_C1.pdf, script-generated using https://github.com/pointhi/kicad-footprint-generator/scripts/TerminalBlock_TE-Connectivity")
@@ -460,7 +460,7 @@
     )
   )
 
-  (footprint "ml-symbols:mikrobus-logo-small" (layer "F.Cu")
+  (footprint "footprints:mikrobus-logo-small" (layer "F.Cu")
     (tedit 65CD9372) (tstamp af829992-e98a-4674-9290-9fe7beab0f0e)
     (at 93.73 50.5145)
     (descr "mikrobus graphical logo, small")
@@ -494,7 +494,7 @@
     (fp_circle (center 1.27 1.4445) (end 1.524 1.4445) (layer "F.SilkS") (width 0.1524) (fill solid) (tstamp b5e53ca9-0e9d-43e5-abf3-7fd7a7dc941a))
   )
 
-  (footprint "ml-symbols:ES100-MOD" (layer "F.Cu")
+  (footprint "footprints:ES100-MOD" (layer "F.Cu")
     (tedit 65C1D259) (tstamp f8b15129-2e8a-4c01-b678-63b9da3d4fd0)
     (at 96.0968 70.2088 90)
     (property "Sheetfile" "ES100-MOD Clock.kicad_sch")
@@ -539,7 +539,7 @@
       (net 8 "/AN2+") (pinfunction "AN2+") (pintype "passive") (tstamp 0b898332-7fe7-4358-abf7-617276660351))
   )
 
-  (footprint "Symbol:OSHW-Logo2_7.3x6mm_SilkScreen" (layer "B.Cu")
+  (footprint "footprints:OSHW-Logo2_7.3x6mm_SilkScreen" (layer "B.Cu")
     (tedit 0) (tstamp 177d889f-96fd-4baa-ae33-eef081dfa7b2)
     (at 107.7 64.278 180)
     (descr "Open Source Hardware Symbol")
